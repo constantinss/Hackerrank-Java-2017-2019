@@ -1,0 +1,17 @@
+package elsys;
+import java.io.*;
+import java.util.*;
+
+
+public class StringReverse {
+
+	public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        System.out.println(new StringBuilder(A).reverse().toString().equals(A) ? "Yes" : "No");
+
+
+	}
+
+}
